@@ -13,6 +13,8 @@ EYE_AR_CONSEC_FRAMES = 1
 COUNTER = 0
 TOTAL = 0
 
+print()
+print()
 def eye_aspect_ratio(eye):
     A = dist.euclidean(eye[1], eye[5])
     B = dist.euclidean(eye[2], eye[4])
